@@ -4239,3 +4239,58 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/*--------------------------------------------------------------
+# AC – Styles personnalisés pour les compétences
+--------------------------------------------------------------*/
+
+/* AC en colonne verticale */
+.vertical-ac {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Styles des boîtes */
+.comp-box {
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  background: var(--surface-color); /* cohérent avec ton thème */
+}
+
+/* Couleurs des contours */
+.border-admin {
+  border-color: #007bff; /* bleu */
+}
+
+.border-connect {
+  border-color: #28a745; /* vert */
+}
+
+.border-program {
+  border-color: #ff9800; /* orange */
+}
+
+.border-securiser {
+  border-color: #dc3545; /* rouge */
+}
+
+.border-surveiller {
+  border-color: #6f42c1; /* violet */
+}
+
+/* Boutons AC */
+.ac-link {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  transition: 0.2s;
+  color: var(--default-color);
+}
+
+.ac-link:hover {
+  background: #f0f0f0;
+  color: #000;
+}
