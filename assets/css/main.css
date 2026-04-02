@@ -4260,23 +4260,24 @@ section,
 
 /* Couleurs des contours */
 .border-admin {
-  border-color: #007bff; /* bleu */
+  border-color: #dc3545; /* rouge */
+
 }
 
 .border-connect {
-  border-color: #28a745; /* vert */
-}
-
-.border-program {
   border-color: #ff9800; /* orange */
 }
 
+.border-program {
+  border-color: #ffff00; /* jaune */
+}
+
 .border-securiser {
-  border-color: #dc3545; /* rouge */
+  border-color: #28a745; /* vert */
 }
 
 .border-surveiller {
-  border-color: #6f42c1; /* violet */
+  border-color: #007bff; /* bleu */
 }
 
 /* Boutons AC */
